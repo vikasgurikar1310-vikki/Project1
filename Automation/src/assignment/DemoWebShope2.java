@@ -40,7 +40,7 @@ public class DemoWebShope2 {
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//section[text()='Login 3.0']")).click();
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("vikas");
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Vikki@123");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Vikki@321");
 		driver.findElement(By.xpath("//button[text()='Login']")).click();
 		Thread.sleep(5000);
 		driver.quit();
